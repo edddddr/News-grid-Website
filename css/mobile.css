@@ -1,0 +1,36 @@
+#main-nav .social{
+    display: none;
+}
+#main-nav .container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+#main-nav .container ul,
+#main-nav .container .logo{
+    justify-self: center;
+} 
+
+#articles .articles-container,
+.footer .container{
+    grid-template-columns: 1fr;
+}
+
+#articles .articles-container > *:first-child,
+#articles .articles-container > *:last-child,
+.footer .container > *:last-child,
+.page-container > *:first-child{
+    grid-template-columns: 1fr;
+    grid-column: 1;
+ }
+
+.footer .container input,
+.footer .container a{
+    width: 100%;
+ }
+
+
+ .page-container{
+    grid-template-columns: 1fr;
+ }
+    grid-column: 1;
+ }
