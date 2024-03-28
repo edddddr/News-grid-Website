@@ -59,6 +59,23 @@ h1,h2,h3,h4,h5{
     overflow: hidden;
 }
 
+.link{
+    display: block;
+    color: #333;
+    margin: 1rem 0;
+    border-bottom: 1px #333 dotted;
+    padding-bottom: .1rem;
+ }
+
+ .link.c-white{
+    color: #fff;
+    border-bottom: 1px #7a7272 dotted;
+}
+
+ .linkes a:hover{
+    color: var(--ent-color);
+ }
+
 .elements{
     display: inline-block;
     background-color: var(--dark-color);
@@ -78,6 +95,27 @@ h1,h2,h3,h4,h5{
     background-color: var(--sport-color);
     color: #fff;
 }
+
+.l-heading{
+    font-size: 32px;
+}
+
+.py-1{
+    padding: 1;
+}
+.py-2{
+    padding: 2;
+}
+.py-3{
+    padding: 3;
+}
+.py-4{
+    padding: 4;
+}
+.py-6{
+    padding: 6;
+}
+
 
 .btn{
     background-color: var(--dark-color);
@@ -232,7 +270,7 @@ h1,h2,h3,h4,h5{
  .page-container{
     display: grid;
     grid-template-columns: 5fr 2fr;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
  }
  .page-container > *:first-child{
     grid-row: 1 / span 3;
@@ -266,16 +304,7 @@ h1,h2,h3,h4,h5{
     outline: none;
  }
 
- .linkes a{
-    display: block;
-    color: #fff;
-    margin: 1rem 0;
-    border-bottom: 1px #ffffff5b dotted;
-    padding-bottom: .1rem;
- }
- .linkes a:hover{
-    color: var(--ent-color);
- }
+
 
  .footer .container > *:last-child{
     text-align: center;
